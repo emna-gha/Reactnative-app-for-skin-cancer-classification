@@ -13,10 +13,14 @@ Categorical classification: Multi-class prediction for 7 types of skin cancer us
 Unet segmentation trained on resized PH2 dataset :
 link: https://www.kaggle.com/datasets/hashbanger/ph2-resized
 # commands to clean cache and run the app
->watchman watch-del-all
->yarn install
+>watchman watch-del-all 
+ 
+>yarn install   
+
 >yarn start --reset-cache
+
 >run -rf/tmp/metro-*
+
 >npx react-native run-android
 # commands to run the app  using yarn or npm
 yarn install
@@ -25,7 +29,7 @@ npx react-native run-android
 # android emulator
 API level 29 or more
 
-For Backend:
+# For Backend:
 # activate the virtual env
 env\Scripts\activate
 # make migrations if you have modified the code
