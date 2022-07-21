@@ -24,8 +24,11 @@ link: https://www.kaggle.com/datasets/hashbanger/ph2-resized
 >npx react-native run-android
 # commands to run the app  using yarn or npm
 yarn install
+
 yarn start
+
 npx react-native run-android
+
 # android emulator
 API level 29 or more
 
