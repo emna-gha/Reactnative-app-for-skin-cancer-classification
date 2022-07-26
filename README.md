@@ -33,11 +33,39 @@ npx react-native run-android
 API level 29 or more
 
 # For Backend:
-# activate the virtual env
+Create virtual environment-
+
+python -m venv env
+
 env\Scripts\activate
-# make migrations if you have modified the code
+Install dependencies using-
+
+pip install -r requirements.txt
+
+If you have python2 and python3 installed you need to specify python3 by using command:
+
+python3 -m pip install -r requirements.txt
+
+Headover to Project Directory-
+
+Make migrations using-
+
 python manage.py makemigrations
-# migrate
+
+If you have python2 and python3 installed you need to specify python3 by using command:
+
+python3 manage.py makemigrations
+
+Migrate Database-
+
 python manage.py migrate
-# run server
+
+Create a superuser-
+
+python manage.py createsuperuser
+
+Run server using-
+
 python manage.py runserver
+
+
