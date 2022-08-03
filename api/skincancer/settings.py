@@ -31,10 +31,11 @@ MODELS = os.path.join(BASE_DIR, 'ml/models')
 # See https://docs.djangoproject.com/en/4.0/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = env(config('SECRET_KEY'))
+SECRET_KEY = env('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = config('DEBUG',cast= bool)
+DEBUG = env('DEBUG')
+
 
 ALLOWED_HOSTS = ['*']
 
