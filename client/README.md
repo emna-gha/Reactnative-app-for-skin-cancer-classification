@@ -1,6 +1,6 @@
 # Skin cancer react-native app
 This project is part of a end-of-studies internship  in order to obtain engineering diploma.
-The app is dedicated to dermatologist to use as a diagnostic aid tool for skin cancer detection and classification.
+The app is dedicated to dermatologist to use as an diagnostic aid tool for skin cancer detection and classification.
 # authentication:
 Json Wen Token authentication
 # screens:
