@@ -60,7 +60,6 @@ export default function  AddVisit() {
 
   }
 
-    
             return (
               <ScrollView contentContainerStyle={styles.container}>
                 <View>

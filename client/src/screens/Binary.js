@@ -32,13 +32,6 @@ export default function  Binary({navigation}) {
   
   const [isLoading, setIsLoading] = useState(false);
 
-
- 
-    
-
-  
-
-
     const onSubmitFormHandler = async (event) => {
       const picture= await launchImageLibrary(options);
       console.log(picture.assets[0])
@@ -60,9 +53,7 @@ export default function  Binary({navigation}) {
         if (response.status === 201) {
           alert(` Binary Prediction: ${JSON.stringify(response.data.cnn_binary_pred)}`);
           setIsLoading(false);
-          setpicture('');
-         
-          
+          setpicture('');  
         } else {
           throw new Error("An error  occurred");
         }
@@ -71,10 +62,6 @@ export default function  Binary({navigation}) {
         setIsLoading(false);
       }
     };
-
-    
-   
-        
 
             return (
               <ScrollView contentContainerStyle={styles.container}>
@@ -97,12 +84,7 @@ export default function  Binary({navigation}) {
               NB: This app is dedicated for medical stuff and must be used by a specialist as a dermatoscopic tool for skin cancer detection.
             </Text>
           
-      </View>
-                  
-
-
-                 
-                
+      </View> 
                   <View>
                     <CustomButton
                       label="Choose photo and predict"
