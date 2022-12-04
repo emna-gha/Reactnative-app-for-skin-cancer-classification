@@ -7,7 +7,7 @@ Json Wen Token authentication
 # screens:
 user can view and add  patients, visits and images 
 # predictions:
-Binary classification: Begnin vs Malignant using transfer learning: pre-build model called Inception V3 trained on ISIC dataset : 
+Binary classification: Begnin vs Malignant using transfer learning: pre-built model called Inception V3 trained on ISIC dataset : 
 link: https://www.kaggle.com/datasets/fanconic/skin-cancer-malignant-vs-benign
 Categorical classification: Multi-class prediction for 7 types of skin cancer using ensemble model ( VGG16 + RESNET50 ) trained on HAM10000
 Unet segmentation trained on resized PH2 dataset :
